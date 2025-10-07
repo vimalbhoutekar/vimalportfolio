@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from './Resume';
 
 const Hero = () => {
   const contactInfo = [
@@ -73,6 +74,7 @@ const Hero = () => {
             >
               View My Work
             </a>
+            <Resume />
             <a
               href="#contact"
               className="px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border-2 border-blue-600 hover:bg-blue-50"
